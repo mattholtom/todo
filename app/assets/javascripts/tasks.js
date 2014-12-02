@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+/*
   $('#new_task').submit(function(event) {
     event.preventDefault();
     $.ajax({
@@ -9,5 +9,5 @@ $(document).ready(function() {
       type: 'POST'
     });
   });
-
+*/
 });

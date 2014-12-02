@@ -3,7 +3,7 @@
 
     <h1>Todo</h1>
 
-    <%= form_for Task.new do |f| %>
+    <%= form_for Task.new, remote: true do |f| %>
 
       <%= f.text_field :name %>
       <%= f.submit "Create", class: "button" %>
