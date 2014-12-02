@@ -3,6 +3,13 @@
 
     <h1>Todo</h1>
 
+    <%= form_for Task.new do |f| %>
+
+      <%= f.text_field :name %>
+      <%= f.submit "Create", class: "button" %>
+
+    <% end %>
+
     <ul id="tasks">
       <%= render @tasks %>
     </ul>
